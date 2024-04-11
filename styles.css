@@ -1,0 +1,193 @@
+body {
+   background-color: #111115;
+}
+
+.Hello {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%;
+    text-align: center;
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:xx-large;
+}
+
+.arrow {
+    display: block;
+    margin: auto;
+    margin-top: 20%;
+    animation-name: waving-arrow;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.card1 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    width: 50%;
+    height: 300px;
+    border-radius: 20px;
+    background-color: #17161b;
+    z-index: 1;
+}
+
+.text1 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%;
+    text-align: center;
+    max-width: 50%;
+    padding: 12%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: x-large;
+    font-weight: 600;
+    color: white;
+}
+
+.card2 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    width: 50%;
+    height: 300px;
+    border-radius: 20px;
+    background-color: #17161b;
+    z-index: 1;
+}
+
+.text2 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    text-align: center;
+    max-width: 50%;
+    padding:10%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: x-large;
+    font-weight: 600;
+    color: white;
+}
+
+.card3 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    width: 50%;
+    height: 200px;
+    border-radius: 20px;
+    background-color: #17161b;
+    z-index: 1;
+}
+
+.text3 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    text-align: center;
+    max-width: 50%;
+    padding: 10%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: x-large;
+    font-weight: 600;
+    color: white;
+}
+
+.card4 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    width: 50%;
+    height: 300px;
+    border-radius: 20px;
+    background-color: #17161b;
+    z-index: 1;
+}
+
+.text4 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    text-align: center;
+    max-width: 50%;
+    padding: 12%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: x-large;
+    font-weight: 600;
+    color: white;
+}
+
+.card5 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    width: 50%;
+    height: 200px;
+    border-radius: 20px;
+    background-color: #2600c0;
+    z-index: 1;
+}
+
+.text5 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    text-align: center;
+    max-width: 50%;
+    padding: 10%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: x-large;
+    font-weight: 600;
+    color: white;
+}
+
+.card6 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    width: 50%;
+    height: 200px;
+    border-radius: 20px;
+    background-color: #111115;
+    z-index: 1;
+}
+
+.text6 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    text-align: center;
+    max-width: 50%;
+    padding: 8%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: x-large;
+    font-weight: 600;
+    color: #111115;
+}
+
+@keyframes waving-arrow {
+    0% {
+        transform: rotate(0deg);
+    }
+    20% {
+        transform: rotate(60deg);
+    }
+    40% {
+        transform: rotate(-60eg);
+    }
+    50% {
+        transform: rotate(40deg);
+    }
+    40% {
+        transform: rotate(-40deg);
+    }
+    50% {
+        transform: rotate(10deg);
+    }
+    60% {
+        transform: rotate(-10deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
